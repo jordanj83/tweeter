@@ -1,0 +1,45 @@
+.tweet-char-button {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Bungee";
+  margin-top: 0.5em;
+}
+
+  .new-tweet {
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+
+.input {
+    background-color:#f4f1ec;
+    border: none;
+    border-bottom: solid;
+    border-bottom-color: #545149;
+    border-width: 5px;
+    margin-bottom: 15px;
+    height: 2em;
+  }
+
+
+.tweet-button {
+  background-color: #4056A1;
+  color:white;
+
+}
+
+
+.tweet-form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+::placeholder {
+  margin-left: 50px;
+  vertical-align: bottom;
+  font-weight: bold;
+}
+

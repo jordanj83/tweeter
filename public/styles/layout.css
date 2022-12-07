@@ -5,6 +5,7 @@
  */
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -17,8 +18,30 @@ html {
 body {
   color: #545149;
   background-color: #f4f1ec;
+  font-family:"Source Sans Pro";
   font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
 }
+.logo {
+  font-family:"Bungee"
+}
+
+.red{
+  color: red;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions

@@ -1,0 +1,84 @@
+.tweet-spot {
+  border: 5px solid #545149;
+  margin-top: 30px;
+  border: 3px solid;
+
+}
+
+hr {
+  margin: 2em;
+  font-size:25%;
+  border: 0px;
+  border-bottom: 5px solid #545149;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+header>div {
+  display: flex;
+  align-items: center;
+  color: #545149
+}
+
+header>div>i{
+  padding-left: 15px;
+  color: #c6c6c6 
+}
+
+header span {
+  padding:10px;
+}
+
+footer {
+  padding-bottom: 10px;
+}
+
+
+footer>div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 5px 10px;
+  align-items: center;
+  font-size: medium;
+  color: #4056A1
+  
+}
+
+footer>div>div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px;
+  font-size: large
+
+  ;
+}
+
+p {
+
+  margin: 5px;
+  padding: 10px;
+}
+
+.likes {
+  font-size: x-small
+
+}
+
+.tweet-spot:hover {
+  box-shadow: 5px 5px black;
+}
+
+.fa-solid:hover {
+color: goldenrod 
+}
+.fa-solid:hover {
+color: goldenrod
+}
+.fa-solid:hover {
+color: goldenrod
+}
