@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('textarea.input').on('keyup', onChange);
+  $('textarea.input').on('input', onChange);
 
 });
 

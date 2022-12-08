@@ -7,6 +7,17 @@ $(document).ready(function() {
 });
 
 const tweetSubmitted = (event) => {
+  event.prevent
+  if (!$('#tweet-text').val()) {
+    return alert('invalid submission');
+  }
+
+
+  if ($('#tweet-text').val().length > 140) {
+    return alert('message exceeds limit');
+  }
+
+
   event.preventDefault();
   const result = $('#tweet-form').serialize();
   $.post('/tweets', result, () => {
