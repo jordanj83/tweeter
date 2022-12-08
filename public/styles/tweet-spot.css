@@ -1,4 +1,4 @@
-.tweet-spot {
+article {
   border: 5px solid #545149;
   margin-top: 30px;
   border: 3px solid;
@@ -15,14 +15,14 @@ hr {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
   align-items: center;
+  
 }
 
 header>div {
   display: flex;
   align-items: center;
-  color: #545149
+  
 }
 
 header>div>i{
@@ -69,7 +69,7 @@ p {
 
 }
 
-.tweet-spot:hover {
+article:hover {
   box-shadow: 5px 5px black;
 }
 
