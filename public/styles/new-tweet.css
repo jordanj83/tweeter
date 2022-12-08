@@ -36,10 +36,19 @@
 }
 
 
-
 ::placeholder {
   margin-left: 50px;
   vertical-align: bottom;
   font-weight: bold;
 }
 
+.errors {
+  margin: 20px;
+  border: red 4px solid;
+  background-color: #f4f1ec;
+  color: red;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+  display: none;
+}
