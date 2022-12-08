@@ -20,9 +20,9 @@ This repository is the starter code for the project: Students will fork and clon
 - chance
 
 ## Pics
-
-https://github.com/jordanj83/tweeter/blob/master/mobile%20mode.PNG?raw=true
-
-https://github.com/jordanj83/tweeter/blob/master/tweeter%20desk%20mode.PNG?raw=true
-
-https://github.com/jordanj83/tweeter/blob/master/ERROR.PNG?raw=true
+### Mobile Mode
+!["mobile mode"](https://github.com/jordanj83/tweeter/blob/master/mobile%20mode.PNG?raw=true)
+### Desktop Mode
+!["desktop mode"](https://github.com/jordanj83/tweeter/blob/master/tweeter%20desk%20mode.PNG?raw=true)
+### Error Message
+!["error message"](https://github.com/jordanj83/tweeter/blob/master/ERROR.PNG?raw=true)
