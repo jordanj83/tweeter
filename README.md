@@ -16,3 +16,13 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+- body-parser
+- chance
+
+## Pics
+
+https://github.com/jordanj83/tweeter/blob/master/mobile%20mode.PNG?raw=true
+
+https://github.com/jordanj83/tweeter/blob/master/tweeter%20desk%20mode.PNG?raw=true
+
+https://github.com/jordanj83/tweeter/blob/master/ERROR.PNG?raw=true
