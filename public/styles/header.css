@@ -5,8 +5,29 @@
   align-items: center;
   height: 400px;
   width: 100%;
-  margin-top: 120px;
+  margin-top: 140px;
   background-color: rgb(255, 217, 0);
   background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  border-radius: 7%;
+  margin-left: 3%;
+
 }
 
+@media (min-width: 768px) {
+  .page-header {
+  margin-left: 2%;
+  margin-left: 10%;
+  border-radius: 5%;
+  margin-top: 140px;
+  float: left;
+  width: 30%;
+  }
+  .new-tweet{
+    float: right;
+    width: 70%;
+  }
+
+
+
+
+}

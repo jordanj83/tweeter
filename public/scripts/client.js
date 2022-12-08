@@ -14,7 +14,7 @@ const escape = function (str) {
 
 const tweetSubmitted = (event) => {
   event.preventDefault();
-  
+
   if (!$('#tweet-text').val()) {
     $('#error-msg-null').slideDown("slow", () => {});
     return setTimeout(() => $('.errors').slideUp(), 5000);
@@ -23,7 +23,7 @@ const tweetSubmitted = (event) => {
   if ($('#tweet-text').val().length > 140) {
     $('#error-msg-length').slideDown("slow", () => {});
     return setTimeout(() => $('.errors').slideUp(), 5000);
-  }
+  };
 
 
   const result = $('#tweet-form').serialize();
@@ -89,6 +89,6 @@ const renderTweets = function(tweets) {
   $('#tweet-container').prepend(element);
   }
 
-}
+};
 
 
